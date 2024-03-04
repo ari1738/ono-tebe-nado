@@ -4,11 +4,13 @@
     grid-template-columns: 1fr auto 1fr;
     justify-content: space-between;
     align-items: center;
-    padding: 90px 24px 91px 24px;
+    padding: 92px 24px 96px 24px;
   }
   
   .header__menu {
-    padding-left: 34px;
+    padding-left: 26px;
+    letter-spacing: 0.18px;
+    
   }
   
   .header__links-list {
@@ -30,7 +32,7 @@
     pointer-events: none;
   }
   
-  .header__links-list-item_no-bullit {
+  .header__links-list-item_no-bullet {
     list-style-type: none;
   }
   
@@ -48,9 +50,13 @@
   
   .address {
     justify-self: end;
-    padding-right: 33px;
+    align-self: center;
+    padding-left: 26px;
+    padding-right: 62px;
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
-    line-height: 135%;
+    line-height: 24.3px; 
+    text-underline-position: under;
+    
   }
