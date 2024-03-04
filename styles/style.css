@@ -1,4 +1,57 @@
 /* HEADER */
 .header {
-    display:flex
+    display: flex;
+    margin: 92px 24px 96px 24px;
+    background-color:rgb(194, 27, 27);
+    margin: auto;
+}
+
+.header__menu {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 29px;
+}
+.header__links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 31px;
+
+}
+
+.header_links-list_no-bullet {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header__links-list-item {
+    text-decoration: underline;
+    list-style-type: circle;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: 36px;
+    width: 130px;
+    height: 105px;
+}
+
+.header__logo-image {
+    width: 148px;
+    height: 105px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    text-underline-position: under;
 }
