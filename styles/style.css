@@ -58,12 +58,12 @@
   font-style: normal;
   line-height: 24.3px; 
   text-underline-position: under;
-    
   }
 
 .cover {
   position: relative;
   background: url(../images/cover.jpg) center no-repeat;
+  background-size: cover;
   }
 
 .overlay {
@@ -92,6 +92,7 @@
   line-height: calc(26 / 22 * 100%);
   letter-spacing: 0.3em;
   text-transform: uppercase;
+ 
   }
 
 .cover__description {
@@ -99,8 +100,8 @@
   position: relative;
   z-index: 1;
   justify-content: space-between;
-  margin-top: 135px;
-
+  margin-top: 147px;
+  
   }
 
 .cover__description-text {
@@ -126,7 +127,9 @@
 }
 
 .aligned-text {
-  width: fit-content;
+  display: block;
+  margin-top: 20px;
+  line-height: 1;
 }
 
 .aligned-text_center {
