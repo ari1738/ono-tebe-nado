@@ -144,6 +144,10 @@
   letter-spacing: 0.6em;
 }
 
+.no-letter-spacing {
+  letter-spacing: normal;
+}
+
 .lots {
   position: relative;
   padding: 180px 24px 0;
@@ -222,6 +226,10 @@
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.no-letter-spacing {
-  letter-spacing: normal;
+.lots__look-more-link {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 30px 0 2px 40px;
 }
